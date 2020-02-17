@@ -92,6 +92,15 @@ nav ul li a{
     
     width: 15%;
 }
+.seemore1{
+	padding: 10px 30px; 
+    background: #DAA520; 
+    color: white; 
+    text-decoration-line: none;
+}
+/*p a.seemore1:hover {
+background: red; 
+}*/
 /* Hamza CSS*/
 
 footer {
