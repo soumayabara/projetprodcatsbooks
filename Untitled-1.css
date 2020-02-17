@@ -90,6 +90,91 @@ nav ul li a{
     
     width: 15%;
 }
+<<<<<<< HEAD:Untitled-1.css
+
+
+
+
+
+
+
+
+/*mohammed CSS*/
+.head{
+    margin-top: 4%;
+}
+
+.pod{
+
+}
+
+.cca{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.wives{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 390px;
+}
+
+.image{
+    margin-top: 6%;
+    margin-right: 10%;
+}
+
+.wives .para{
+    width: 68%;
+}
+
+.louisa {
+    width: 25%;
+    margin-right: 10%;
+}
+
+.play{
+    padding-top: 7%;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
 footer {
     width: 100%;
     height: 30px;
@@ -98,6 +183,7 @@ footer {
     font-family: Roboto;
     text-align: center;
 }
+>>>>>>> be8ee65f5304bc2cd83c3f570ebc4b310172a4f7:css/Untitled-1.css
 @media (max-width: 700px){
     .nav{
         position: relative;
