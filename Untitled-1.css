@@ -11,13 +11,13 @@ body{
 .entete {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: white;
     width: 100%;
 }
 
 header img{
-    height: 86px;
-    width: 200PX;
+    height: 101px;
+    width: 218PX;
 }
 nav ul li{
     display: inline; 
@@ -32,13 +32,13 @@ nav ul li{
 nav ul li a{
     font-family: Montserrat;
     font-size: 20px;
-    color: aliceblue;
+    color: black;
     text-decoration: none;
 }
 .reseausociaux img{
     width: 30px;
     height: 30px;
-    margin-top: 26px;
+    margin-top: 47px;
     margin-left: 10PX;
     /* margin: 10PX */
 }
@@ -55,19 +55,19 @@ nav ul li a{
     position: absolute;
     margin-top:546px;
     font-family: cursive;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: 23PX;
 
 }
 
 .titre h1{
     
-    text-shadow: 2px 2px #FFD700;
+    text-shadow: 2px 2px #FF8C00;
     text-align: center;
     /* margin-top: 80PX; */
     color: black;
     margin-top: 111px;
-    text-shadow: 5px 5px 10px #DAA520;
+    text-shadow: 5px 5px 10px #FF8C00;
 
 }
 .title {
@@ -94,7 +94,7 @@ nav ul li a{
 }
 .seemore1{
 	padding: 10px 30px; 
-    background: #DAA520; 
+    background: #FF8C00; 
     color: white; 
     text-decoration-line: none;
 }
@@ -141,7 +141,7 @@ footer {
   font-weight: 300;
   margin-bottom: 37px;
   margin-left: 53px;
- text-shadow:5px 5px 10px #DAA520;
+ text-shadow:5px 5px 10px #FF8C00;
 
 }
 
@@ -193,7 +193,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #DAA520;
+  background: #FF8C00;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
