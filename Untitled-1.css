@@ -1,0 +1,107 @@
+body{
+     /* background-image: url(gray_sand_@2X.png); */
+     /* background-color: #DAA520; */
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0;
+     padding: 0;  
+     /* display: flex; */
+     /* flex-wrap: wrap; */
+}
+.entete {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+
+header img{
+    height: 86px;
+    width: 200PX;
+}
+nav ul li{
+    display: inline; 
+     MARGIN-LEFT: 57PX; 
+     margin-top: 10px; 
+    text-align: center;  
+    /* color: aliceblue; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  
+}
+nav ul li a{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.reseausociaux img{
+    width: 30px;
+    height: 30px;
+    margin-top: 26px;
+    margin-left: 10PX;
+    /* margin: 10PX */
+}
+.reseausociaux{
+    position: relative;
+    left: -60px;
+}
+.accueil img{
+    position: relative;
+    width: 100%;
+}
+.accueil p {
+    z-index: 100;
+    position: absolute;
+    margin-top:546px;
+    font-family: cursive;
+    margin-left: 40px;
+    font-size: 23PX;
+
+}
+
+.titre h1{
+    
+    text-shadow: text-shadow: 2px 2px #FFD700;
+    text-align: center;
+    /* margin-top: 80PX; */
+    color: black;
+    margin-top: 111px;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 111px;
+    
+}
+.pic1 {
+    /* background-color: brown; */
+    width: 15%;
+}
+.pic2 {
+    
+    width: 15%;
+}
+.pic3 {
+    
+    width: 15%;
+}
+.pic4 {
+    
+    width: 15%;
+}
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+@media (max-width: 700px){
+    .nav{
+        position: relative;
+        left: 10px;
+    }
+
+}
