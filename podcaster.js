@@ -59,3 +59,21 @@ class Element {
 }
 let list = new StackAndQueue();
 let list2 = new StackAndQueue();
+
+function add(type) {
+    if (type === "image") {
+        list.add({
+            url: document.getElementById("url-input").value,
+            title: document.getElementById("title-input").value,
+            disc: document.getElementById("disc-input").value
+        });
+        show(type);
+    }
+}
+function show(type) {
+    if (type === "image") {
+        if (list.show()) {
+            document.getElementById("img").src = list.show().url || "NOImageAvailable.jpg";
+            document.getElementById("title").innerHTML = list.show().title || "";
+            document.getElementById("disc").innerHTML = list.show().disc || "";
+        }
