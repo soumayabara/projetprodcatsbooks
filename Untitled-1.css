@@ -53,10 +53,11 @@ nav ul li a{
 .accueil p {
     z-index: 100;
     position: absolute;
-    margin-top:546px;
+    margin-top:650px;
     font-family: cursive;
     margin-left: 30px;
     font-size: 23PX;
+    color : paleturquoise;
 
 }
 
@@ -201,6 +202,7 @@ fieldset {
   padding: 10px;
   font-size: 15px;
   margin-left: 13PX;
+  border-radius: 2px;
 }
 }
 
