@@ -97,6 +97,7 @@ nav ul li a{
     background: #FF8C00; 
     color: white; 
     text-decoration-line: none;
+    border-radius: 20px; 
 }
 /*p a.seemore1:hover {
 background: red; 
@@ -194,6 +195,7 @@ fieldset {
   width: 100%;
   border: none;
   background: #FF8C00;
+  border-radius: 20px;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
