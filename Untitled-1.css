@@ -319,48 +319,48 @@ color: white;
     left: 24px;
     bottom: 83px;
     padding: 15px 25px;
-    font-size: 16px;
+    font-size: 24px;
     width: 108px;
     border-radius: 12px;
     color: #fff;
-    background-color: #3498db;
+    background-color: #FF8C00;
     border: none;
     cursor: pointer;
-    box-shadow: 0 9px #2980b9;
+    box-shadow: 0 9px #FF8C00;
 }
 
 #my-sub:hover {
     transform: translateY(3px);
-    box-shadow: 0 6px #2980b9;
+    box-shadow: 0 6px #FF8C00;
 }
 
 #my-sub:actif {
     transform: translateY(7px);
-    box-shadow: 0 2px #2980b9;
+    box-shadow: 0 2px #FF8C00;
 }
 #my-sub1 {
     position: relative;
     left: 328px;
     bottom: 83px;
     padding: 15px 25px;
-    font-size: 16px;
+    font-size: 24px;
     width: 108px;
     border-radius: 12px;
     color: #fff;
-    background-color: #3498db;
+    background-color: #FF8C00;
     border: none;
     cursor: pointer;
-    box-shadow: 0 9px #2980b9;
+    box-shadow: 0 9px #FF8C00;
 }
 
 #my-sub1:hover {
     transform: translateY(3px);
-    box-shadow: 0 6px #2980b9;
+    box-shadow: 0 6px #FF8C00;
 }
 
 #my-sub1:actif {
     transform: translateY(7px);
-    box-shadow: 0 2px #2980b9;
+    box-shadow: 0 2px #FF8C00;
 }
 #mp {
       position: relative;
