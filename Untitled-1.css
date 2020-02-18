@@ -11,13 +11,13 @@ body{
 .entete {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: white;
     width: 100%;
 }
 
 header img{
-    height: 86px;
-    width: 200PX;
+    height: 101px;
+    width: 218PX;
 }
 nav ul li{
     display: inline; 
@@ -32,13 +32,13 @@ nav ul li{
 nav ul li a{
     font-family: Montserrat;
     font-size: 20px;
-    color: aliceblue;
+    color: black;
     text-decoration: none;
 }
 .reseausociaux img{
     width: 30px;
     height: 30px;
-    margin-top: 26px;
+    margin-top: 47px;
     margin-left: 10PX;
     /* margin: 10PX */
 }
@@ -55,18 +55,20 @@ nav ul li a{
     position: absolute;
     margin-top:546px;
     font-family: cursive;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: 23PX;
 
 }
 
 .titre h1{
     
-    text-shadow: text-shadow: 2px 2px #FFD700;
+    text-shadow: 2px 2px #FF8C00;
     text-align: center;
     /* margin-top: 80PX; */
     color: black;
     margin-top: 111px;
+    text-shadow: 5px 5px 10px #FF8C00;
+
 }
 .title {
     display: flex;
@@ -90,6 +92,16 @@ nav ul li a{
     
     width: 15%;
 }
+.seemore1{
+	padding: 10px 30px; 
+    background: #FF8C00; 
+    color: white; 
+    text-decoration-line: none;
+    border-radius: 20px; 
+}
+/*p a.seemore1:hover {
+background: red; 
+}*/
 /* Hamza CSS*/
 
 footer {
@@ -119,16 +131,19 @@ footer {
 
 #contact {
   background: #F9F9F9;
-  padding: 25px;
+  padding: 54px;
   margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
   display: block;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 37px;
+  margin-left: 53px;
+ text-shadow:5px 5px 10px #FF8C00;
+
 }
 
 #contact h4 {
@@ -179,11 +194,14 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #4CAF50;
+  background: #FF8C00;
+  border-radius: 20px;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
+  margin-left: 13PX;
+}
 }
 
 #contact button[type="submit"]:hover {
