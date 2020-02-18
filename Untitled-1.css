@@ -235,9 +235,38 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*mohammed CSS*/
 .head{
     margin-top: 4%;
+}
+.title1 h1{
+  vertical-align: middle;
+line-height: 125px;
+color: white;
+}
+.title1{
+  background: linear-gradient(90deg, rgba(242,84,39,1) 19%, rgba(205,69,48,1) 44%, rgba(167,65,58,1) 72%, rgba(147,58,48,1) 83%, rgba(134,39,13,1) 100%);
+  text-align: center;
+  height: 125px;
 }
 
 .pod{
@@ -258,7 +287,10 @@ fieldset {
 
 .vl {
   border-left: 2px solid grey;
-  height: 390px;
+  height: 364px;
+  position: relative;
+  left: 108px;
+
 }
 
 .image{
@@ -276,10 +308,63 @@ fieldset {
 }
 
 .play{
-    padding-top: 7%;
+     position: relative;
+    right: 161px;
+    top: 139px; 
+}
+#my-sub {
+    position: relative;
+    left: 24px;
+    bottom: 83px;
+    padding: 15px 25px;
+    font-size: 16px;
+    width: 108px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 9px #2980b9;
 }
 
+#my-sub:hover {
+    transform: translateY(3px);
+    box-shadow: 0 6px #2980b9;
+}
 
+#my-sub:actif {
+    transform: translateY(7px);
+    box-shadow: 0 2px #2980b9;
+}
+#my-sub1 {
+    position: relative;
+    left: 328px;
+    bottom: 83px;
+    padding: 15px 25px;
+    font-size: 16px;
+    width: 108px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 9px #2980b9;
+}
+
+#my-sub1:hover {
+    transform: translateY(3px);
+    box-shadow: 0 6px #2980b9;
+}
+
+#my-sub1:actif {
+    transform: translateY(7px);
+    box-shadow: 0 2px #2980b9;
+}
+#mp {
+      position: relative;
+    left: 127px;
+    bottom: 22px;
+}
 
 
 
