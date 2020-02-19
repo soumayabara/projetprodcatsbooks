@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<meta charset="utf-8">
+</head>
+ <body>
+		<div class="entete">
+     <header>
+        <img src="Capture1.PNG" alt="logo" >
+    
+     </header>
+     <div class="reseausociaux">
+        <img class="instagram" src="iconfinder_1_Instagram_colored_svg_1_5296765.png">
+        <img class="facebook" src="iconfinder_1_Facebook_colored_svg_copy_5296499.png">
+        <img class="facebook" src="1_Twitter3_colored_svg-128.png">
+    </div>
+</div>
+    <Nav style="text-align: center; margin-top: -62px;" class="nav">
+        <UL >
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Podcasts</strong></a></li>
+            <li><a href="#"><strong>Contact</strong></a></li>
+
+        </UL>
+    </Nav>
+		
+    <script >
+
+    function validation () {
+
+        let uNom =document.registration.lastname;
+        let uPrenom =document.registration.firstname;
+        let uEmail =document.registration.Email;
+        let uTel =document.registration.Telephone;
+{
+if (fname (uNom)){
+if (fprenom (uPrenom)){
+if (vemail(uEmail)){
+ if(vtele(uTel)){
+ }   
+}
+}
+}
+}
+return false; 
+    }
+ function fname (uNom){
+      let caractere = /^[A-Za-z]/;
+      if (uNom.value.match(caractere)){
+          return true
+      } else {
+        alert('your first name must have alphabet characters ');
+        return false;
+      }
+ }
+ function fprenom (uPrenom){
+      let caractere = /^[A-Za-z]/;
+      if (uPrenom.value.match(caractere)){
+          return true
+      } else {
+        alert('your last name must have alphabet characters ');
+        return false;
+      }
+ }
+ function vemail(uEmail){
+     let emailcaractere = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+     if (uEmail.value.match(emailcaractere)){
+         return true;
+     }else{
+         alert('your adress mail is invalid');
+         return false;
+     }
+ } 
+ function vtele (uTel){
+     let telecaractere = "^\d{2}-\d{2}-\d{2}$";
+     if(uTel.value.match(telecaractere)){
+         return true;
+     }else{
+         alert('your pohone number must have number characters');
+         return false;
+     }
+
+ }
+ 
+    </script>
+
+</head>
+<body>
+  
+    <h2> <strong>Contact </strong></h2>
+    
+        <div class="CALI">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509916.957423575!2d-123.79759793610344!3d37.18430344877116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornie%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sma!4v1578910668240!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        </div>
+
+   <section id="contact">
+     
+
+       <div id="cnt">
+
+        <form name="registration" onsubmit="validation ();">
+
+       
+        <label ><strong>Name :</strong></label>
+        <input type="text" id="lname" name="Yourname" placeholder="Your name" required>   <span class="validity"></span>
+     
+
+        
+
+         <label><strong>Email</strong> :</label>
+          <input type="text" id="femail" name="E-mail" placeholder="E-mail" required>  <span class="validity"></span>
+          
+
+          <label ><strong>Phone :</strong></label>
+          <input type="text" id="PHONE" name="Telephone" placeholder="Phone number" required> <span class="validity"></span>   
+
+          <label ><strong>Message :</strong></label>
+          <textarea id="subject" name="remarque" placeholder="Message" style="height:150px"></textarea>
+      
+          <input type="submit" value="VALIDATE">
+
+        </form>
+       </div>
+    
+   </section>
+
+ 
+
+   <Script>
+    var navHamburger = document.querySelector('#navHamburger');
+    navHamburger.addEventListener( 'click', (e) => {
+        navHamburger.parentElement.classList.toggle('active');
+    });
+</Script>
+<script defer src="assets/js/all.js"></script> <!--load all styles -->
+         
+
+        </footer>
+
+</body>
+</html>

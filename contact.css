@@ -1,0 +1,360 @@
+body{
+     /* background-image: url(gray_sand_@2X.png); */
+     /* background-color: #DAA520; */
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0;
+     padding: 0;  
+     /* display: flex; */
+     /* flex-wrap: wrap; */
+}
+.entete {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+
+header img{
+    height: 101px;
+    width: 218PX;
+}
+nav ul li{
+    display: inline; 
+     MARGIN-LEFT: 57PX; 
+     margin-top: 10px; 
+    text-align: center;  
+    /* color: aliceblue; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  
+}
+nav ul li a{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.reseausociaux img{
+    width: 30px;
+    height: 30px;
+    margin-top: 47px;
+    margin-left: 10PX;
+    /* margin: 10PX */
+}
+.reseausociaux{
+    position: relative;
+    left: -60px;
+}
+
+
+
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #5CB8E6;
+  text-decoration: underline solid black;
+  font-family:'Font Awesome\ 5 Free';
+  padding: 30px;
+  
+}
+/*section > div {
+  
+  width: 35%;
+  margin: 4em;
+  padding: 0.5em;
+  align-items: center;
+  font-style: italic;
+   text-indent: 0;
+   text-shadow: black
+} */
+
+
+
+iframe {
+  width: 98%;
+  padding: 16px;
+}
+h2{
+  text-align: center;
+  color: black;
+  padding: 20px;
+  font-style: oblique;
+  font-size: 43px;
+  /*text-shadow: 2px 2px #FF8C00;*/
+  background: linear-gradient(90deg, rgba(242,84,39,1) 19%, rgba(205,69,48,1) 44%, rgba(167,65,58,1) 72%, rgba(147,58,48,1) 83%, rgba(134,39,13,1) 100%);
+}  
+
+div#cnt input[type=text], select, textarea {  
+  width: 88%;
+  padding: 12px;
+  border: 0.5px ridge #707070; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin: 12px;
+ 
+  
+}
+input[type=submit] {
+  background-color: #FF8C00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  
+}
+div#formcontact {
+  width: 40%;
+  margin: 4em;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 40px;
+  background-color: #FF8C00;
+  border: 1px ridge;
+  border-top-color: rgb(52, 155, 178);
+  border-top-width: 15px;
+  
+}
+
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+input + span {
+margin-left: -14px;
+}
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px ridge black; 
+  border-radius: 15px;
+  box-sizing: border-box; 
+  margin: 10px;
+  
+}  
+label {
+    margin: 12px;
+}
+input[type=submit] {
+  background-color: #38ADA9
+  color: white;
+  padding: 12px 20px;
+  font-family: Segoe U;
+ border-color: black;
+   cursor:pointer;
+  border-radius: 24px;
+  
+}
+}
+
+       
+
+
+
+.container1{	width: 70%;	margin: auto;}
+.container-lg{	width: 80%;	margin: auto;}
+
+
+@media (max-width: 1466px){
+.services .buttondiv {top: 90%;}
+
+}
+@media (max-width: 1334px){
+.blog1 .p2{font-size: 22px !important;}
+header .navbar .menu ul li {
+  margin-left: 8px;
+}
+}
+@media (max-width: 1200px){
+.about{display: block;}
+.team .container h2{margin-left: -12%;}
+.blg .part{width: 44%;}
+.text h1 {font-size: 26px;}
+.text p {width: 100%;font-size: 16px;}
+.text .button {padding: 18px 12px;font-size: 15px;}
+.about .text1 {width: 80%; margin: auto;}
+.blog1 .p2{font-size: 20px !important;}
+.navbar .toggle{
+  transition: all .5s ease;
+  display: flex;
+  z-index: 5;
+    margin-top: 14px;
+    /* float: right; */
+    flex: 1;
+    justify-content: flex-end;
+}
+.navbar .toggle img {width: 44px;height: 34px;}
+.navbar.active {width: 100%}
+.navbar.active .menu{width: 101%;display: block;position: absolute;top: 57px;right: -95px;z-index: 1;}
+  .navbar.active .toggle {background: #223047;color: white;height: 0;}
+
+.navbar .link:hover,
+  .navbar .link:active {
+      color: #223047;
+      background: white;
+      border: 1px solid #06B995;
+  }
+.navbar .link{
+              display: block;
+              text-align: center;
+              padding: 1em;
+              text-decoration: none;
+              background: #fff;
+              color: #38ADA9;
+              margin-left: 3px;
+              z-index: 2;
+          }
+  .navbar .menu .i{border-top: 1px solid #38ADA9;}
+  header .navbar .menu ul {
+  list-style: none;
+  margin-right: -57px;
+  margin-top: 50px;}
+  header .navbar .menu ul li {display: block;margin-right: -11px;}
+  header .navbar .menu ul li.quote {    
+   border-radius: 0; 
+  padding: 14px 25px;
+  text-align: center;}
+
+header .navbar .menu{display: none;}
+
+
+
+}
+
+   .navbar .toggle img {width: 44px;height: 34px;}
+.navbar.active {width: 100%}
+.navbar.active .menu{width: 98%;display: block;position: absolute;top: 57px;right: -40px;z-index: 1;}
+  .navbar.active .toggle {background: #223047;color: white;height: 0;}
+
+.navbar .link:hover,
+          .navbar .link:active {
+              color: #223047;
+              background: white;
+              border: 1px solid #06B995;
+          }
+.navbar .link{
+              display: block;
+              text-align: center;
+              padding: 1em;
+              text-decoration: none;
+              background: #fff;
+              color: #38ADA9;
+              margin-left: 3px;
+              z-index: 2;
+          }
+  .navbar .menu .i{border-top: 1px solid #38ADA9;}
+  header .navbar .menu ul {
+  list-style: none;
+  margin-right: -57px;
+  margin-top: 50px;}
+  header .navbar .menu ul li {display: block;margin-right: -11px;}
+  header .navbar .menu ul li.quote {
+  
+   border-radius: 0; 
+  padding: 14px 25px;
+  text-align: center;
+  
+}
+header .navbar .menu{display: none;}
+
+
+.blog1 .p2{font-size: 17px !important;}
+
+
+}
+
+@media  (max-width: 500px){
+.blg .part{width: 100%;}
+.shoose .container .why .us {width: 79%;}
+.services .buttondiv {top: 95%;}
+.text h1 {font-size: 16px;}
+.text p {width: 100%;font-size: 12px;}
+.text .button {padding: 12px 7px;font-size: 11px;}
+header .navbar .menu{display: none;}
+.ligne {height: 100px;margin-top: 10px;}
+.ligne .text2 span {margin-right: 10px;	font-size: 14px;}
+.ligne .button {padding: 12px 20px;font-size: 10px;}
+.about .text1{width: 100%;margin-bottom: 20px}
+.about .image img {height: 374px;/* margin-bottom: 30px; */}
+.about .text1 {width: 80%; margin: auto;}
+footer .ftr{flex-direction: column;}
+footer .ftr .footer {/* width: 16%; */width: 100%;margin: auto;text-align: center;}
+footer .ftr .footer .logo{margin-left: 11%;}
+footer .ftr .footer .logo h2{ margin-bottom: 0;}
+header .topnav .p2{display: none;}
+header .topnav .p1{text-align: center;}
+.navbar .toggle{
+  display: flex;
+    margin-top: 14px;
+    /* float: right; */
+    z-index: 5;
+    flex: 1;
+    justify-content: flex-end;
+}
+.navbar .toggle img {width: 44px;height: 34px;}
+.navbar.active {width: 100%}
+.navbar.active .menu{width: 100%;display: block;position: absolute;top: 88px;right: -10px;z-index: 1;}
+  .navbar.active .toggle {background: #223047;color: white;height: 0;}
+
+.navbar .link:hover,
+          .navbar .link:active {
+              color: #223047;
+              background: white;
+              border: 1px solid #06B995;
+          }
+.navbar .link{
+              display: block;
+              text-align: center;
+              padding: 1em;
+              text-decoration: none;
+              background: #fff;
+              color: #38ADA9;
+              margin-left: 3px;
+              z-index: 2;
+          }
+  .navbar .menu .i{border-top: 1px solid #38ADA9;}
+  header .navbar .menu ul {
+  list-style: none;
+  margin-right: -57px;
+  margin-top: 50px;}
+  header .navbar .menu ul li {display: block;margin-right: -11px;}
+  header .navbar .menu ul li.quote {
+  
+   border-radius: 0; 
+  padding: 14px 25px;
+  text-align: center;
+  
+}
+
+  .container h2 {font-size: 23px;}
+
+.blog1 .p2{font-size: 14px !important;}
+.team .club .persone {margin-right: 40px;}
+.Testimonials .test .persone p {
+    font-size: 11px;
+    padding-top: 0;
+}
+.Testimonials .button {font-size: 9px;}
+.projects h2 { margin-top: 0px;}
+.projects .project { margin:  0;}
+.blog1{padding: 0;}
+.container{	width: 80%;}
+.services .container h2 {margin: 20px 0;}
+.services .container .Service .type {width: 320px;margin: 0}
+.blog1 .bh2{text-align: center; font-size: 15px;}
+.blog1 p{font-size: 8px !important;}
+}
+
+
