@@ -135,6 +135,11 @@ footer {
   padding: 54px;
   margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width: 600px;
+  height: 500px;
+  margin-left: -154px;
+  position: relative;
+  top: 93px;
 }
 
 #contact h3 {
@@ -143,7 +148,9 @@ footer {
   font-weight: 300;
   margin-bottom: 37px;
   margin-left: 53px;
- text-shadow:5px 5px 10px #FF8C00;
+  text-shadow:5px 5px 10px #FF8C00;
+  position: relative;
+  top: -173px;
 
 }
 
@@ -203,6 +210,8 @@ fieldset {
   font-size: 15px;
   margin-left: 13PX;
   border-radius: 2px;
+  position: relative;
+  top: 50px;
 }
 }
 
@@ -425,10 +434,12 @@ color: white;
 footer {
     width: 100%;
     height: 30px;
-    background-color: black;
+    background-color: #FF8C00;
     color: white;
     font-family: Roboto;
     text-align: center;
+    position: relative;
+    top: 400px;
 }
 >>>>>>> be8ee65f5304bc2cd83c3f570ebc4b310172a4f7:css/Untitled-1.css
 @media (max-width: 700px){
