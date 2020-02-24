@@ -50,38 +50,34 @@
     </div>
 </div>
 
-<center><div class="play">
-    <img src="e.png" width="5%">
-    <audio controls id="mp">
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <button style="border-radius: 10px;" id="my-sub">prev</button>
-    <button style="border-radius: 10px;" id="my-sub1">Next</button>
-</div>
-<div class="play">
-    <img src="e.png" width="5%">
-    <audio controls id="mp">
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <button style="border-radius: 10px;" id="my-sub">prev</button>
-    <button style="border-radius: 10px;" id="my-sub1">Next</button>
-</div>
-<div class="play">
-    <img src="e.png" width="5%">
-    <audio controls id="mp">
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <button style="border-radius: 10px;" id="my-sub">prev</button>
-    <button style="border-radius: 10px;" id="my-sub1">Next</button>
-</div>
-
-</center>
+<center>
+    <div class="audio-all">
+        <div class="audio-btn1">
+            <button onclick="previous('audio')" id="pre-audio">&lt;&lt; Previous</button>
+            <button onclick="next('audio')"id="next-audio" >Next &gt;&gt;</button>
+        </div>
+        <div class="audio-player">
+            <audio src="" id="audio" controls></audio>
+        </div>
+        <p id="audio-info">No audio - No album</p>
+    </div>
+    <div class="">
+        <div class="">
+            <input id="url-audio" type="text" placeholder="Insert your audio url here">
+            <div class="">
+                <input id="title-audio" type="text" placeholder="insert the audio title here">
+                <input id="album-audio" type="text" placeholder="insert the audio album here">
+            </div>
+        </div>
+        <div class="">
+            <button onclick="add('audio')">Add</button>
+            <div class="input-group">
+            </div>
+        </div>
+    </div>
+    </center>
+    
+<script src="playlist-the_sword_laser.js"></script>
 </body>
 </html>
 
