@@ -139,7 +139,7 @@ footer {
   height: 500px;
   margin-left: -154px;
   position: relative;
-  top: 93px;
+ /* top: 93px;*/
 }
 
 #contact h3 {
@@ -150,7 +150,7 @@ footer {
   margin-left: 53px;
   text-shadow:5px 5px 10px #FF8C00;
   position: relative;
-  top: -173px;
+  top: -142px;
 
 }
 
@@ -455,19 +455,20 @@ color: white;
 =======
 footer {
     width: 100%;
-    height: 30px;
+   /* height: 111px;*/
     background-color: #FF8C00;
     color: white;
     font-family: Roboto;
     text-align: center;
-    position: relative;
+   position: relative;
     top: 400px;
+
 }
->>>>>>> be8ee65f5304bc2cd83c3f570ebc4b310172a4f7:css/Untitled-1.css
+/*>>>>>>> be8ee65f5304bc2cd83c3f570ebc4b310172a4f7:css/Untitled-1.css
 @media (max-width: 700px){
     .nav{
         position: relative;
         left: 10px;
     }
 
-}
+}*/
